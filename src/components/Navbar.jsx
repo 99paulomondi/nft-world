@@ -63,7 +63,7 @@ function DesktopNav(){
 
     return(
         <>
-            <Box display={{base: "none", md: "block"}} id="desktopNav" className={colorChange ? 'navbar colorChange' : 'navbar'} w={"100%"} py={3} borderBottom={"1px"} borderColor={"gray.800"}>
+            <Box display={{base: "none", md: "block"}} id="desktopNav" className={colorChange ? 'navbar colorChange' : 'navbar'} w={"100%"} py={3}>
                 <Container maxW={"7xl"}>
                     <Box display={"flex"} justifyContent={"space-between"} alignItems={"center"}>
                         <Box>
@@ -119,7 +119,7 @@ function MobileNav(){
 
     return(
         <>
-            <Box display={{base: "block", md: "none"}} id="mobilepNav" className={colorChange ? 'navbar colorChange' : 'navbar'} w={"100%"} py={3} borderBottom={"1px"} borderColor={"gray.800"}>
+            <Box display={{base: "block", md: "none"}} id="mobileNav" className={colorChange ? 'navbar colorChange' : 'navbar'} w={"100%"} py={3}>
                 <Container maxW={"7xl"}>
                     <Box display={"flex"} justifyContent={"space-between"} alignItems={"center"}>
                         <Box>
@@ -135,6 +135,7 @@ function MobileNav(){
     )
 }
 
+// this is the main component that holds all the child components
 export const Navbar = () => {
     return (
       <>

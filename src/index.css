@@ -2,18 +2,22 @@
     position: fixed;
     top: 0;
 }
+#mobileNav{
+    position: fixed;
+    top: 0;
+}
 .navbar{
     background-color: transparent;
 }
 .navbar.colorChange{
-    backdrop-filter: blur(24px);
-    background-color: rgba(45,45,45,.7);
+    backdrop-filter: blur(10px);
+    background-color: rgba(45,45,45,0.7);
     z-index: 999;
 }
 #banner{
-    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.5) ), url("/images/banner.jpg");
+    background: linear-gradient( rgba(0,0,0,0.5), rgba(26, 32, 44, 1) ), url("/images/banner2.jpg");
     min-height: 100vh;
-    background-position: top;
+    background-position: bottom;
     background-size: cover;
     background-repeat: no-r6epeat;
 }
