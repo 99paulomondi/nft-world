@@ -1,5 +1,6 @@
 import { Box, Button, Center, Container, Text } from "@chakra-ui/react"
 import { Navbar } from "../components/Navbar"
+import { Categories } from "../components/Categories"
 
 export const Home = () => {
   return (
@@ -24,6 +25,7 @@ export const Home = () => {
           </Box>
         </Container>
       </Box>
+      <Categories/>
     </>
   )
 }

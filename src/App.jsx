@@ -6,7 +6,7 @@ function App() {
 
   return (
     <>
-      <Box minH={"100vh"}bg={"gray.800"}>
+      <Box minH={"100vh"}bg={"gray.900"}>
         <Routes>
           <Route path="/" exact element={<Home/>}/>
         </Routes>
