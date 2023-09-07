@@ -1,6 +1,7 @@
 import { Box, Button, ButtonGroup, Center, Container, Grid, GridItem, Image, Text } from "@chakra-ui/react"
 import { Navbar } from "../components/Navbar"
 import { Categories } from "../components/Categories"
+import { Steps } from "../components/Steps"
 
 export const Home = () => {
   return (
@@ -57,6 +58,10 @@ export const Home = () => {
             </GridItem>
           </Grid>
         </Box>
+      </Container>
+
+      <Container maxW={"7xl"} pt={"30px"} pb={"50px"}>
+        <Steps/>
       </Container>
     </>
   )
