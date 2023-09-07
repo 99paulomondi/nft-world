@@ -60,9 +60,13 @@ export const Home = () => {
         </Box>
       </Container>
 
+      {/* This section contains the steps ie step-01 */}
       <Container maxW={"7xl"} pt={"30px"} pb={"50px"}>
         <Steps/>
       </Container>
+
+      {/* This is a break section */}
+      <Box id="breaker"></Box>
     </>
   )
 }
