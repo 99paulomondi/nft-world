@@ -4,6 +4,7 @@ import { Navbar } from "../components/Navbar"
 import { Categories } from "../components/Categories"
 import { Steps } from "../components/Steps"
 import { Newnft } from "../components/Newnft";
+import { Footer } from "../components/Footer";
 
 export const Home = () => {
   return (
@@ -99,6 +100,9 @@ export const Home = () => {
           </Box>
         </Box>
       </Container>
+
+      {/* footer section */}
+      <Footer/>
     </>
   )
 }

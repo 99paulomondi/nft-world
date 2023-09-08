@@ -35,3 +35,10 @@
     background-size: cover;
     background-repeat: no-repeat;
 }
+#footer{
+    background: linear-gradient(rgba(23, 25, 35, 1), rgba(0,0,0,0.5)), url("/images/footer.jpg");
+    min-height: 50vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
