@@ -18,8 +18,8 @@ const nav = [
         path: "/explore"
     },
     {
-        title: "Wallet",
-        path: "/wallet"
+        title: "Blog",
+        path: "/blog"
     },
     {
         title: "Contact",

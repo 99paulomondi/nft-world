@@ -42,3 +42,10 @@
     background-size: cover;
     background-repeat: no-repeat;
 }
+#blog{
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(23, 25, 35, 1)), url("/images/footer.jpg");
+    min-height: 50vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
