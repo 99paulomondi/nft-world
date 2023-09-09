@@ -10,10 +10,6 @@ const nav = [
         path: "/"
     },
     {
-        title: "About",
-        path: "/about"
-    },
-    {
         title: "Explore",
         path: "/explore"
     },
